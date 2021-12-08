@@ -19,7 +19,7 @@ class RoomView(generics.ListCreateAPIView):
     serializer_class = RoomSerializer
 
 
-# Update room view,  *this implementation is not according to tim
+# Update room view 
 class UpdateRoomView(APIView) :
     
     serializer_class = UpdateRoomSerializer
